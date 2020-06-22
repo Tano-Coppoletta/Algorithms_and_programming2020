@@ -46,7 +46,7 @@ int main(){
     FILE *fp;
     int nr,i;
 
-    fp=fopen("C:\\Users\\tanoc\\Desktop\\Algoritmi e programmazione\\progetto\\lab04\\corse_lab4.txt","r");
+    fp=fopen("corse_lab4.txt","r");
     if(fp==NULL){
         printf("errore nell'apertura del file\n");
         return -1;
