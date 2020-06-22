@@ -40,7 +40,7 @@ int main(){
     }
     fclose(fp);
 
-    tx=fopen("C:\\Users\\tanoc\\Desktop\\Algoritmi e programmazione\\progetto\\lab02\\testo_es3.txt","r");
+    tx=fopen("testo_es3.txt","r");
     if(tx==NULL){
         printf("errore nell'apertura del file\n");
         return -2;
