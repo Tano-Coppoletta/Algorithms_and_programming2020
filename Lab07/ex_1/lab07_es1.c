@@ -39,7 +39,7 @@ int scrivi_pietre(Pietre *p){
   //  char file[30];
     int l;
 
-    fp=fopen("C:\\Users\\tanoc\\Desktop\\Algoritmi e programmazione\\progetto\\lab07\\pietre.txt","r");
+    fp=fopen("pietre.txt","r");
     if(fp==NULL){
         printf("errore nell'apertura del file\n");
         return -1;
