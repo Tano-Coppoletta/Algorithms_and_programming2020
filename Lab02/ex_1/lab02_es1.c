@@ -20,7 +20,7 @@ int main(){
     int matrice[max][max],nr,nc;
     Max ma[3];
 
-    fp=fopen("C:\\Users\\tanoc\\Desktop\\Algoritmi e programmazione\\progetto\\lab02\\mappa.txt","r");
+    fp=fopen("mappa.txt","r");
     if(fp==NULL){
         printf("errore nell'apertura del file mappa\n");
         return -1;
