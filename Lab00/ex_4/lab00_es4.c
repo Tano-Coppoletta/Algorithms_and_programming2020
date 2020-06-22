@@ -14,7 +14,7 @@ int main(){
     do{
         printf("inserire dimensione\n");
         scanf("%d",&dim);
-        fp=fopen("C:\\Users\\tanoc\\Desktop\\Algoritmi e programmazione\\progetto\\lab_00_es4\\testo_es2.txt","r");
+        fp=fopen("testo_es2.txt","r");
         fscanf(fp,"%d %d",&nr ,&nc);
         for(i=0;i<nr;i++){
             for(j=0;j<nc;j++){
