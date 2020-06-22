@@ -1,0 +1,43 @@
+//
+// Created by tanoc on 30/09/2019.
+//
+#include <stdio.h>
+#define upper 30
+
+int main(){
+
+    int N=upper,dim=0,max=0;
+    int v[N],i,contatore=0,j;
+
+
+    printf("quanti numeri vuoi inserire?\n");
+    scanf("%d",&N);
+    printf("inserisci numeri\n");
+    for(i=0;i<N;i++){
+        scanf("%d",&v[i]);
+    }
+    for(i=0;i<N;i++){
+        if(v[i]==0){
+            dim=0;
+        }else{
+            dim++;
+            if(dim>max){
+                max=dim;
+            }
+        }
+    }
+    for(i=0;i<N;i++){
+        if(v[i]!=0) {
+            contatore++;
+            if(contatore==max){
+                for(j=(i-(max-1));j<=i;j++){
+                    printf("%d ",v[j]);
+                }
+                printf("\n");
+            }
+        }else{
+            contatore=0;
+        }
+    }
+
+}
