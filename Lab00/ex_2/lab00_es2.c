@@ -16,7 +16,7 @@ int main(){
     //scanf("%s",nomefile);
     printf("inserire lunghezza sottostringa\n");
     scanf("%d",&n);
-    fp=fopen("C:\\Users\\tanoc\\Desktop\\Algoritmi e programmazione\\progetto\\lab00_es2\\testo_es2.txt","r");
+    fp=fopen("testo_es2.txt","r");
     if(fp==NULL){
         printf("errore nell'apertura del file\n");
     }
