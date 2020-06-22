@@ -13,7 +13,7 @@ int main(){
     FILE *fp;
     int S,l,i=0,j,v[20],temp[20];
 
-    fp=fopen("C:\\Users\\tanoc\\Desktop\\Algoritmi e programmazione\\progetto\\lab02\\sort.txt","r");
+    fp=fopen("sort.txt","r");
     if(fp==NULL){
         printf("errore nell'apertura del file\n");
         return -1;
