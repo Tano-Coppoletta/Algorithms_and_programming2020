@@ -12,7 +12,7 @@ int main(){
     int i,j;
     FILE *fp;
 
-    fp=fopen("C:\\Users\\tanoc\\Desktop\\Algoritmi e programmazione\\progetto\\lab01_es1\\calendario_es1.txt","r");
+    fp=fopen("calendario_es1.txt","r");
     if(fp==NULL){
         printf("errore nell'apertura del file\n");
         return -1;
