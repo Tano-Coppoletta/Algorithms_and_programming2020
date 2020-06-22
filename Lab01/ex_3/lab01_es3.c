@@ -18,7 +18,7 @@ int main() {
 
     printf("inserire nome file\n");
     //scanf("%s",nome_file);
-    fp = fopen("C:\\Users\\tanoc\\Desktop\\Algoritmi e programmazione\\progetto\\lab01\\matrice_es3", "r");
+    fp = fopen("matrice_es3", "r");
     if (fp == NULL) {
         printf("errore nell'apertura del file\n");
     }
